@@ -26,14 +26,14 @@ class Box{
     }
 };
 int main(){
-    Box b1();
+    Box b1;
     cout<<"For first constructor, "<<endl;
     b1.display();
     cout<<"For second constructor, "<<endl;
     int l;
     cout<<"Enter length.Both height and breadth are taken unity."<<endl;
     cin>>l;
-    box b2(l);
+    Box b2(l);
     b2.display();
     cout<<"For third constructor, "<<endl;
     int l1;
