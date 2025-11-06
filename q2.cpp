@@ -21,7 +21,7 @@ class Complex{
     }
 };
 int main(){
-    Complex c1();
+    Complex c1;
     cout<<"For first constructor, "<<endl;
     c1.display();
     cout<<"For second constructor, "<<endl;
